@@ -1,0 +1,35 @@
+elif tablero[1][0]==1 and tablero[1][1]==1 and tablero[1][2]==1:
+        print("\n\n\tGANASTE!!!!!  ", user )
+        print("GRACIAS POR JUGAR")
+    elif tablero[2][0]==1 and tablero[2][1]==1 and tablero[2][2]==1:
+        print("\n\n\tGANASTE!!!!!  ", user )
+    elif tablero[0][0]==1 and tablero[1][1]==1 and tablero[2][2]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[0][2]==1 and tablero[2][2]==1 and tablero[2][0]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[2][0]==1 and tablero[2][1]==1 and tablero[2][2]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[0][0]==1 and tablero[1][0]==1 and tablero[2][0]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[0][1]==1 and tablero[1][1]==1 and tablero[2][1]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[0][2]==1 and tablero[1][2]==1 and tablero[2][2]==1:
+        print("\n\n\tGANASTE!!!!!\n\n   ", user )
+    elif tablero[0][0]==2 and tablero[0][1]==2 and tablero[0][2]==2:
+        print("perdedor", user )
+    elif tablero[1][0]==2 and tablero[1][1]==2 and tablero[1][2]==2:
+        print("perdedor", user )
+    elif tablero[2][0]==2 and tablero[2][1]==2 and tablero[2][2]==2:
+        print("perdedor", user )
+    elif tablero[0][0]==2 and tablero[1][1]==2 and tablero[2][2]==2:
+        print("perdedor", user )
+    elif tablero[0][2]==2 and tablero[1][1]==2 and tablero[2][0]==2:
+        print("perdedor", user )
+    elif tablero[2][0]==2 and tablero[2][1]==2 and tablero[2][2]==2:
+        print("perdedor", user )
+    elif tablero[0][0]==2 and tablero[1][0]==2 and tablero[2][0]==2:
+        print("perdedor", user )
+    elif tablero[0][1]==2 and tablero[1][1]==2 and tablero[2][1]==2:
+        print("perdedor", user )
+    elif tablero[0][2]==2 and tablero[1][2]==2 and tablero[2][2]==2:
+        print("perdedor", user )
